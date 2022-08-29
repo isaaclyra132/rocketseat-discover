@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--
+        Seções comuns em documentos HTML
+
+        - cabeçalho <header>
+        - navegação <nav>
+        - Conteúdo principal <main>
+        - barra lateral <aside>
+        - rodapé <footer>
+    -->
+
+    <!--
+        <header> </header>
+
+        - Onde utilizar?
+            - Quando no início da pa´gina, é visto como global
+            - Pode ser usado em outros elementos semânticos como article, section
+            - header dentro header ou footer?
+        - Múltiplos headers
+        - Não possui atributos específicos.
+    -->
+    <header>
+        logomarca
+
+        <!--
+            <nav></nav>
+
+            - Onde e por que utilizar?
+                - geralmente vem dentro do header
+            - não possuem atributos específicos, somente os globais
+        -->
+        <nav>
+            <ul>
+                <li>item</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--
+        <main></main>
+            A tag main é para um conteúdo único da sua página, portanto, você vai utilizá-la apenas uma vez por página, e vai ser colocada direto do body, e não é legal deixar em qualquer outro lugar além de logo depois do body, entendemos a tag main como o foco central da página, o conteúdo principal da aplicação, então geralmente dentro dessa tag, não vamos deixar o nosso menu.
+
+        - Onde e por que utilizar?
+        - não possuem atributos específicos, somente os globais
+    -->
+    <main>
+        conteúdo principal
+
+        <!--
+            <article></article>
+
+            A tag article vai criar blocos de conteúdo que estejam relacionados, exemplo a seguir:
+            
+            <body>
+                <main>
+                    <h1>Receitas</h1>
+                    <p>Essa é uma página de receitas</p>
+
+                    <article>
+                        <h2>Receita de torta de maçã</h2>
+                        <p>Essa é uma receita de torta de maçã</p>
+                    </article>
+
+                    <article>
+                        <h2>Receita de torta de limão</h2>
+                        <p>Essa é uma receita de torta de maçã</p>
+                    </article>
+                </main>
+            </body>
+        -->
+        <article></article>
+    </main>
+
+    <!--
+        <aside></aside>
+
+        - Conteúdos levemente relacionados ao conteúdo principal
+            - explicações
+            - glossários
+            - links extras
+            - biografia do autor
+            - informações de perfil
+        - atributos: apenas globais
+    -->
+    <aside>
+        parte lateral
+    </aside>
+
+
+    <!--
+        <footer></footer>
+
+        -Geralmente no final da página
+            - Informações do autor, copyright, contato, sitemap, voltar ao topo
+        - atributos: globais
+    -->
+    <footer>rodapé</footer>
+
+    <!--
+        <section></section>
+            A tag section serve para colocarmos seções na nossa página HTML, e uma dica de ouro: Geralmente se coloca um título e conteúdo na tag section. Antigamente usava-se uma div para fazer essas divisões e seções de conteúdos, mas semanticamente é mais apropriado usar uma tag section.
+
+        - Onde e por que utilizar?
+        - apenas globais
+    -->
+
+
+    <!--
+        elementos não semânticos, para uso genéricos.
+
+        <div></div>
+            usado se não conseguir achar um elemento de bloco semântico.
+        
+        <span></span>
+            usado se não conseguir achar um elemento de texto semântico.
+        
+        em ambas, use atributos globais como id e class para entregar maior significado
+    -->
+</body>
+</html>

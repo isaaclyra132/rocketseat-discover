@@ -1,0 +1,12 @@
+* { margin: 0; }
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 20% auto;
+
+    border: 10px solid red;
+    border-top: solid green 4px;
+
+    outline: yellow 4px solid;
+}

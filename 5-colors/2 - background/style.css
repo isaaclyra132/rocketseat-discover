@@ -1,0 +1,35 @@
+* { margin: 0;}
+
+/*header{
+    height: 250px;
+    border: 7px dashed red;
+    padding: 16px;
+
+    background-color: rgb(245, 243, 112);
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+}*/
+
+main {
+    color: white;
+    padding: 8px;
+
+    background-color: rgb(245, 243, 112);
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-attachment: fixed;
+
+    /* shorthand */
+    background: linear-gradient(180deg,green, yellow), rgb(245, 243, 112) url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*), no-repeat right top / 50px border-box content-box fixed;
+
+
+    background: linear-gradient(180deg,green, yellow);
+}

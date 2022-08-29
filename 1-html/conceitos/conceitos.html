@@ -1,0 +1,177 @@
+<!--
+  Anatomia das tags
+  
+  - Abertura de Tag
+  - Fechamento de Tag
+  - Conteúdo
+  - Elementos
+-->
+
+<h1>
+  O título
+</h1>
+
+
+<!--
+  Elementos Vazios
+-->
+
+<img src="" alt="">
+<input type="text">
+
+
+<!--
+  Atributos HTML
+  - informações extras
+  - configurações
+-->
+
+<img src="conteudo" alt="Texto">
+
+
+<!--
+  Atributos booleanos
+  - não precisam de conteúdo
+-->
+
+<input type="text" disabled>
+
+
+<!--
+  Aspas
+  - omissão
+  - simples
+  - duplas
+
+  USAR SEMPRE ASPAS DUPLAS PARA EVITAR PROBLEMAS
+-->
+
+<a href="https://google.com">link</a>
+
+
+<!--
+  Atributos globais mais utilizados
+
+  - class
+  - contenteditable
+  - data-*
+  - hidden
+  - id
+  - style
+  - tabindex
+  - title
+-->
+
+<div class="carrinho" title="Define um título" contenteditable="true" tabindex="1">
+  conteúdo
+</div>
+
+
+<div class="carrinho" data-qualquernomeaqui="" id="name" style="color: red" tabindex="2">
+  conteúdo
+</div>
+
+
+<div class="carrinho" hidden>
+  conteúdo
+</div>
+
+
+<!--
+  Aninhamento de tags
+  
+  - Fluxo
+  - Hierarquia
+  - Posicionamento dos elementos
+-->
+
+<p>
+  Vou <em>escrever</em> um parágrafo
+</p> 
+
+<p> Esse é um novo parágrafo</p>
+
+<p>
+  <a href="">Esse</a>
+  é um <em>texto</em>
+  <p>
+    Aqui outro texto
+  </p>
+</p>
+
+<p>
+  Aqui um texto <br>
+  Quebra a linha
+
+</p>
+
+
+<!--
+  Vamos praticar
+
+  Escrever 2 parágrafos, dando ênfase
+  e importância para algumas palavras 
+  e adicione um link de saiba mais.
+
+  - use a tag em para ênfase
+  - use a tag strong para importância
+  - o link pode levar para o google
+-->
+
+<p>
+  Diante do que foi apresentado, 
+  podemos verificar que para <strong>adicionar</strong>
+  novos parágrafos utilizamos a <em> tag </em>"p"
+<p>
+  <br>
+  Já para quebrar linhas utilizamos a <em>tag </em> "br",
+  ou um novo parágrafo
+
+  <br>
+  Para saber mais <a href="https://google.com">clique aqui</a>
+</p>
+  
+</p>
+
+
+<!--
+  Conteúdo do texto e 
+  caracteres reservados.
+-->
+
+<p>
+  &nbsp;
+  Os espaços
+
+  que colocamos
+
+  além das quebras de linha são ignorados
+</p>
+
+
+<!--
+  Anatomia de um documento HTML
+-->
+
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Anatomia do Documento
+    </title>
+  </head>
+
+  <body>
+    <h1>Título</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse officiis saepe laudantium impedit animi! Provident numquam velit mollitia, ex, magnam voluptas assumenda facere cumque accusantium pariatur quasi totam dolor.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nulla earum doloribus ratione ullam eaque neque optio! Quam, voluptates accusantium, sapiente similique aperiam corporis recusandae officiis quasi quia provident quo!
+    </p>
+  </body>
+</html>
+

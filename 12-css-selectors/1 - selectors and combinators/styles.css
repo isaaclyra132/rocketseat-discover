@@ -1,0 +1,27 @@
+.red {
+    color: red;
+}
+
+.big {
+    font-size: 3em;
+}
+
+p:hover {
+    color:blue;
+}
+
+body article h2 {
+    color:red;
+}
+
+body > ul > li {
+    color:blue;
+}
+
+h1 + p {
+    color:brown;
+}
+
+button + button {
+    margin-left: 32px;
+}

@@ -1,0 +1,12 @@
+li {
+    position: relative;
+}
+
+li::after{
+    content: "";
+    width: 10px;
+    height: 1px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+}
